@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+.row, .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+ }
+
+/* Menu vertical de gauche  */
+/* 
+.navContainer{
+   
+} */
+
+.leftMenu{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.mainContainer{
+    background-image: url(imgPortfolio/accueil.jpg);
+    background-size: cover;
+}
+
+.mainContainer h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.mainContainer P{
+    font-size: 2rem;
+    margin-left: 2%;
+}
+
+.apropos{
+    background-color: white;
+    padding: 5%;
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10PX;
+    box-shadow: 3px 20px 20px black;
+}
+
+.apropos h2{
+    font-size: 3rem;
+    text-align: center;
+   margin: 2%;
+  
+}
+.apropos p{
+    text-align: justify;
+}
