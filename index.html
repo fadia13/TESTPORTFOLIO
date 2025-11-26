@@ -1,71 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio developpeur web</title>
     <!-- css bootstrap -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-      <!-- mon css  -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-
-<div class="container-fluid">
-
-    <div class="container-fluid row">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- mon css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container-fluid row">
         <!-- la nav verticale de gauche  -->
         <nav class="leftMenu col-2">
-            <div>
-                <img  src="imgPortfolio/photoprofil.png " alt="PROFIL" width="200" >
-            </div>
+          <div>
+            <img src="imgPortfolio/photoprofil.png " alt="PROFIL" width="200" />
+          </div>
 
-            <div>
-                <a href="#apropos">A propos</a>
-            </div>
+          <div>
+            <a href="#apropos">A propos</a>
+          </div>
 
-            <div>
-                <a href="#portfolio">Portfolio</a>
-            
-            </div>
+          <div>
+            <a href="#portfolio">Portfolio</a>
+          </div>
 
-            <div>
-                <a href="#competence">Compétence</a>
-            </div>
+          <div>
+            <a href="#competence">Compétence</a>
+          </div>
 
-            <div>
-                <a href="#contact">Contact</a>
-            </div>
+          <div>
+            <a href="#contact">Contact</a>
+          </div>
 
-            <div>
-                <img src="imgPortfolio/contact.svg" alt="enveloppe email" class=" w-25">
-                
-            </div>
-            
-
+          <div>
+            <img
+              src="imgPortfolio/contact.svg"
+              alt="enveloppe email"
+              class="w-25"
+            />
+          </div>
         </nav>
-
 
         <!-- le contenu principal à droite  -->
 
-        <main class="mainContainer  col-10">
-     
-            <h1>Développeuse web full stack</h1>
-            <p><i>Mon expertise au service de vos projets</i></p>
-            
-            <section class="apropos">
-                <h2>A propos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi numquam ducimus, esse labore nesciunt temporibus aperiam omnis aliquam in voluptates doloribus sunt cupiditate harum facere animi </p>
-            </section>
+        <main class="mainContainer col-10">
+          <h1>Développeuse web full stack</h1>
+          <p><i>Mon expertise au service de vos projets</i></p>
+
+          <section id="apropos">
+            <h2 class="sectionTitle">A propos</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              numquam ducimus, esse labore nesciunt temporibus aperiam omnis
+              aliquam in voluptates doloribus sunt cupiditate harum facere animi
+            </p>
+          </section>
+
+          <!-- ******section portfolio********* -->
+
+          <section id="portfolio">
+            <h2 class="sectionTitle">Portfolio</h2>
+            <div class="portfolioContainer">
+              <div class="cardItem">
+                <img
+                  src="imgPortfolio/img1porfolio.jpg"
+                  alt="image portfolio"
+                />
+
+                <div class="cardContent">
+                  <h2>Blog</h2>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Laudantium vel beatae totam repellat! Voluptatum error,
+                  </p>
+
+                  <a class="btn btn-dark" href="">Découvrer le projet</a>
+                </div>
+              </div>
+              <div class="cardItem">
+                <img
+                  src="imgPortfolio/img2portfolio.jpg"
+                  alt="image portfolio"
+                />
+
+                <div class="cardContent">
+                  <h2>Portfolio</h2>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Laudantium vel beatae totam repellat! Voluptatum error,
+                  </p>
+
+                  <a class="btn btn-dark" href="">Découvrer le projet</a>
+                </div>
+              </div>
+              <div class="cardItem">
+                <img
+                  src="imgPortfolio/img3portfolio.jpg"
+                  alt="image portfolio"
+                />
+
+                <div class="cardContent">
+                  <h2>E-commerce</h2>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Laudantium vel beatae totam repellat! Voluptatum error,
+                  </p>
+
+                  <a class="btn btn-dark" href="">Découvrer le projet</a>
+                </div>
+              </div>
+            </div>
+          </section>
         </main>
-
-
-
+      </div>
     </div>
-
-</div>
-    
-</body>
+  </body>
 </html>

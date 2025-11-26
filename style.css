@@ -49,7 +49,7 @@ html, body{
     margin-left: 2%;
 }
 
-.apropos{
+#apropos , #portfolio{
     background-color: white;
     padding: 5%;
     width: 85%;
@@ -59,12 +59,37 @@ html, body{
     box-shadow: 3px 20px 20px black;
 }
 
-.apropos h2{
+.sectionTitle{
     font-size: 3rem;
     text-align: center;
    margin: 2%;
   
 }
-.apropos p{
+#apropos p{
     text-align: justify;
+}
+
+
+/***** Section portfoolio **** */
+
+.portfolioContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardItem{
+    width: 30%;
+    min-width:300px;
+    margin-bottom: 6%;
+    border: 2px solid rgba(169, 169, 169, 0.556);
+    border-radius: 10px;
+}
+
+.cardItem img{
+    width:100%;
+    height: 220px;
+}
+.cardContent{
+    margin: 3%;  
 }
