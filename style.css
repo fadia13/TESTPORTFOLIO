@@ -21,6 +21,7 @@ html, body{
 .navContainer{
    
 } */
+ 
 
 .leftMenu{
     background-color: black;
@@ -49,7 +50,7 @@ html, body{
     margin-left: 2%;
 }
 
-#apropos , #portfolio{
+#apropos ,#portfolio,#competence,#contact{
     background-color: white;
     padding: 5%;
     width: 85%;
@@ -92,4 +93,85 @@ html, body{
 }
 .cardContent{
     margin: 3%;  
+}
+
+
+/* section compétence  */
+
+#competence p{
+    text-align: right;
+}
+
+
+.skills{
+    text-align: right;
+    background-color: lightgray;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 2%;
+    font-weight:bold;
+    color: white;
+}
+
+
+.skillsHtmlcss{
+    background-color: #fbdfdc;
+    width: 95%;
+}
+
+@keyframes animhtmlcss{
+    0%{
+        width:0;
+        margin-left:-5px;
+    }
+
+    100%{
+        width: 95%;
+    }
+}
+
+.skillsJs{
+    background-color:#ca9c53;
+    width: 90%;
+}
+
+@keyframes animJS{
+    0%{
+        width:0;
+        margin-left:-5px;
+    }
+    
+    100%{
+        width: 90%;
+    }
+}
+
+
+
+.skillsPhp{
+    background-color:black;
+    width: 85%;
+}
+
+@keyframes animPhp{
+    0%{
+        width:0;
+        margin-left:-5px;
+    }
+    
+    100%{
+        width: 85%;
+    }
+}
+
+
+/* section contact  */
+
+#contact{
+    margin-top:3% ;
+}
+
+#contact input{
+
+    font-weight: bold;
 }
