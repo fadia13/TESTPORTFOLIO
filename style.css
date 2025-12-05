@@ -6,31 +6,63 @@ html, body{
 
 }
 
-/************* new ******************** */
-/* couleur de fond noir derière le bouton  && tout le texte et les images au centre
+
+/***** menu burger sur petit écran ****** */
+
+/* backgound color noir derrière le bouton  */
 .burger-menu{
     background-color: black;
     text-align: center;
-}
-
-/* Mettre les liens en colonne  et ajout d'une petite marge 
-.burger-menu a {
-  display: flex;
-  flex-direction: column;
-  margin:1rem 0;
-}
-
-/* ajouter un petit espace entre les liens  
-.burger-nav-links {
-  padding: 1rem;
+    display: none;
 }
 
 
-/* Définir la taille de l'image de profil et l'icon email 
+/* flex pour mettre les liens en colonne */
+#burgerContent a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+    
+}
+
+/* changement de taille des images dans le nav burger  */
 #burgerContent img{
     width: 100px;
+     margin-bottom: 1%;
 }
 
+/********* media queries ************/
+
+@media screen and (max-width : 1227px) {
+    .burger-menu {
+    display: block;
+      text-align: center;
+      min-width: 400px; /*Fixer la taille de la nav*/
+    
+  }
+
+
+  .leftMenu {
+    display: none !important;
+  }
+
+  /* FIXE LA TAILLE DE L IMAGE DE FOND  */
+
+  .mainContainer{
+    width: 100%;
+    min-width: 400px;
+  }
+
+  .mainContainer h1{
+    font-size: 2rem!important;
+  }
+  .mainContainer .slogan{
+    font-size: 1rem !important;
+  }
+}
+
+
+/************* new ******************** */
 
 /* Par défaut, cacher le menu burger sur grand écran 
 .burger-menu {
@@ -38,8 +70,6 @@ html, body{
   background-color: black;
   min-width: 440px;/*Le bakground reste coller au bord du navigateur 
   text-align: center;
-
-}
 
 
 /************* média queries************ *
