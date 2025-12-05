@@ -6,11 +6,100 @@ html, body{
 
 }
 
+/************* new ******************** */
+/* couleur de fond noir derière le bouton  && tout le texte et les images au centre
+.burger-menu{
+    background-color: black;
+    text-align: center;
+}
+
+/* Mettre les liens en colonne  et ajout d'une petite marge 
+.burger-menu a {
+  display: flex;
+  flex-direction: column;
+  margin:1rem 0;
+}
+
+/* ajouter un petit espace entre les liens  
+.burger-nav-links {
+  padding: 1rem;
+}
+
+
+/* Définir la taille de l'image de profil et l'icon email 
+#burgerContent img{
+    width: 100px;
+}
+
+
+/* Par défaut, cacher le menu burger sur grand écran 
+.burger-menu {
+  display: none;
+  background-color: black;
+  min-width: 440px;/*Le bakground reste coller au bord du navigateur 
+  text-align: center;
+
+}
+
+
+/************* média queries************ *
+
+/* Responsive : si écran < 1230px 
+@media screen and (max-width: 1230px) {
+
+  .leftMenu {
+    display: none !important;
+  }
+  
+  .iconemail{
+    width: 80px !important;
+
+  }
+  /* afficher le menu berger sur petit écran 
+  .burger-menu {
+    display: block;
+  }
+
+  .mainContainer{
+    margin: auto;
+    width: 100%;
+    /* min-width: 400px; 
+  }
+
+   .mainContainer h1{
+    font-size: 2.5rem !important;
+    padding:4%;
+  }
+
+  
+.mainContainer{
+    background-image: url('img/accueil.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; 
+    background-size: contain;/* réduit ou agrandit l’image pour qu’elle tienne entièrement dans la div, sans être coupée. 
+    /*background-size: cover; réduit ou agrandit l’image pour qu’elle tienne entièrement risque d'être coupée. */
+
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; 
+    /* Centre l’image dans la div, pour que le vide (s’il y en a) soit réparti équitablement *
+    width: 100%;
+    min-width: 445px;
+
+}
+
+
+} 
+
+
+/************* fin ******************** */
 
 .row, .container-fluid{
     margin: 0;
     padding: 0;
 }
+
+
  a{
     text-decoration: none;
     color: white;
@@ -117,9 +206,35 @@ html, body{
 }
 
 
+/* new Animation ************************** */
+/* définir les classes d'animation  et le rythme de l'animation  */
+
+/* animation: nom de l’animation.
+
+2s: durée de l’animation.
+
+forwards: garde la largeur finale (95%) à la fin de l’animation. */
+
+/* .animhtmlcss {
+  animation: animhtmlcss 2s forwards;
+}
+
+.animJS {
+  animation: animJS 2s forwards;
+}
+
+.animPhp {
+  animation: animPhp 2s forwards;
+} */
+
+
+
+/* new fin *********************************** */
+
+/* MDF */
 .skillsHtmlcss{
     background-color: #fbdfdc;
-    width: 95%;
+    width: 0%;
 }
 
 @keyframes animhtmlcss{
